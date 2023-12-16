@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Edit img" src="https://media.giphy.com/media/1OrzLUhqBIfiEOTKen/giphy.gif" width="50%" hight="50%">
+<img alt="Edit img" src="https://media.giphy.com/media/1OrzLUhqBIfiEOTKen/giphy.gif" width="40%" hight="40%">
 </p>
 
 # Theory of Computation - Project

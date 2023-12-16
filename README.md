@@ -2,14 +2,10 @@
 <img alt="Edit img" src="https://media.giphy.com/media/1OrzLUhqBIfiEOTKen/giphy.gif" width="50%" hight="50%">
 </p>
 
-# Theory of Computation Project
+# Theory of Computation - Project
 Theory of Computation (01076121), Computer Engineering 60 at KMITL.
 
-- This repository is software development principles and practices, including the use of software processes in actual product development: life cycle models, IDE, version control system, user requirements gathering, **object-oriented** **software** and **UML**, **software** **architecture**, **software** **design** and implementation, testing, and software refactoring. And part of **the** **ROAD** **TRIP** **IN** **CHON** **project** **is** **a** **web** **application** **using** **Nextjs**, **TypeScript** **and** **AXIOS**.
-
-Finite automata, regular expressions, push-down automata, context free grammars,
-pumping lemmas, Turing machines, Time and space complexity measures, P and NP complete
-problems 
+- This repository is Finite automata, regular expressions, push-down automata, context free grammars, pumping lemmas, Turing machines, Time and space complexity measures, P and NP complete problems. And part of the **Spelling** **Bee** **project** **is** **a** **Web** **Application** **for** **the** **Da Vinci** **Code** **Game**. **Using** **React.js** **and** **Tailwind**.
 
 ## Project Code - Directory
 - [Source code Frontend](spelling-dee-frontend-main)
@@ -19,12 +15,16 @@ or Source Code
 - Backend : https://github.com/theory-of-comedy/spelling-dee-backend
 
 ## Member Group
-- Pannawich Wachinseadhiran
-- Phiphusana Pingkasan
+- Kanokporn Supaphon
+- Kunanon Maneesong
+- Chakraphat Phaijit
+- Chonlapharit khongchauy
+- Saphirene Tokani
+- Nopphruj Chantan
+- Piyarat Konkao
 - Phattharaphorn Chandecha
-- Phum Praisri
-- Rosarin Santisuk 
-- Worachon Chaiprasertsud
+- Rosarin Niyomsantisuk
 - Woraphon Rangsi
-- Sitthi Thiancharoenchai
-- Pattanaphon Chaiwong
+- Sirasit Thiancharoenchai
+- Siraphop Saengmee
+- Supitchaya Prompalit

@@ -1,0 +1,13 @@
+package-lock.json
+yarn.lock
+node_modules
+
+# any other unwanted files or folders
+.commitlintrc.json
+.eslintrc.json
+.git
+.gitignore
+.husky
+.lintstagedrc
+.prettierignore
+.prettierrc.json

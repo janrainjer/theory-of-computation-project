@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: app-dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
+    networks:
+      - spelling-dee
+    restart: always
+
+networks:
+  spelling-dee:
+    driver: bridge

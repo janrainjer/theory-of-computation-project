@@ -1,0 +1,70 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^1.5.1",
+    "cross-env": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "cross-env CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
+    "pre-commit": "lint-staged",
+    "configure-husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\"",
+    "format": "prettier --write .",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "dev": "docker-compose -f docker-compose.dev.yml up",
+    "pre-deploy": "docker-compose -f docker-compose.dev.yml down",
+    "deploy": "docker-compose -f docker-compose.prod.yml up -d --build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.31",
+    "prettier": "3.0.3",
+    "tailwindcss": "^3.3.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo ”[Husky] pre-commit”"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json}": [
+      "eslint src --ext .js,.jsx,.ts,.tsx",
+      "prettier --write ."
+    ]
+  }
+}

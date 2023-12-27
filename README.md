@@ -8,7 +8,7 @@
 # Theory of Computation - Project
 Theory of Computation (01076121), Computer Engineering 60 at KMITL.
 
-- This repository is Finite automata, regular expressions, push-down automata, context free grammars, pumping lemmas, Turing machines, Time and space complexity measures, P and NP complete problems. And part of the **Spelling** **Dee** **project** **is** **a** **Web** **Application** **for** **the** **Da Vinci** **Code** **Game**. **Using** **React.js** **and** **Tailwind**.
+- This repository is Finite automata, regular expressions, push-down automata, context free grammars, pumping lemmas, Turing machines, Time and space complexity measures, P and NP complete problems. And part of the **Spelling** **Bee** **project** **is** **a** **Web** **Application** **for** **the** **Da Vinci** **Code** **Game**. **Using** **React.js** **and** **Tailwind**.
 
 ## Project Code - Directory
 - [Source code Frontend](spelling-dee-frontend-main)

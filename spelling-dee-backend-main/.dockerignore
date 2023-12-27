@@ -1,0 +1,6 @@
+__pycache__
+Dockerfile
+docke-compose.yaml
+requirements-dev.txt
+.pylintrc
+.pre-commit-config.yaml

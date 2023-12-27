@@ -1,0 +1,24 @@
+name: Deploy to self-hosted
+
+on:
+  workflow_run:
+    workflows: [ "Python application CI" ]
+    branches: [ "main" ]
+    types:
+      - completed
+
+env:
+    MONGO_URI: ${{ secrets.MONGO_URI }}
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build docker-compose
+        run: docker compose up -d --build
+
+      - name: Clear Docker Cache
+        run: docker system prune -af

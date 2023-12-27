@@ -12,22 +12,4 @@ Theory of Computation (01076121), Computer Engineering 60 at KMITL.
 
 ## Project Code - Directory
 - [Source code Frontend](spelling-dee-frontend-main)
-
-or Source Code  
-- Frontend : https://github.com/theory-of-comedy/spelling-dee-frontend
-- Backend : https://github.com/theory-of-comedy/spelling-dee-backend
-
-## Member Group
-- Kanokporn Supaphon
-- Kunanon Maneesong
-- Chakraphat Phaijit
-- Chonlapharit khongchauy
-- Saphirene Tokani
-- Nopphruj Chantan
-- Piyarat Konkao
-- Phattharaphorn Chandecha
-- Rosarin Niyomsantisuk
-- Woraphon Rangsi
-- Sirasit Thiancharoenchai
-- Siraphop Saengmee
-- Supitchaya Prompalit
+- [Source code Backend](spelling-dee-backend-main)
